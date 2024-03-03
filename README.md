@@ -15,7 +15,9 @@
 
 #### To Do:
 
-- Error hanlding for edge cases. 
+- Error hanlding for edge cases within LinkedList.
+- Error hanlding remove item from stack if it is already empty.
+  
 
 ## Overview
 
@@ -33,15 +35,23 @@ StackProject - The goal for this program was to implement a stack of integers us
 
 
 ### Linked List Insert Elements
+Input : Add front (1): 13, Add back (2): 55, Add front (1): 33, Print List (5)
 ![Valid data input from user](/LinkedList/insertElements.png)
 
+### Linked List Remove Elements
+Input : Remove front (3): 13 removed, Remove back (4): 55 removed, Print List (5)
+![Valid data input from user](/LinkedList/removeElements.png)
+
 ### Linked List Error Handling
+Input : Add front (1): 5.0, Exit program (0) 
 ![Invalid data input from user](/LinkedList/errorHandling.png)
 
 ### Stack Implementation
+Input: Check if stack is empty (1): Currently empty, Insert an element from the stack (2): 13, Insert an element from the stack (2): 12, Find the average value of the stack (5): 12
 ![Valid data input from user](/StackProject/Output.png)
 
 ### Stack Implementation
+Input: Print the current elements in the stack [top to bottom] (6): 12 | 13, Find the top of the stack (4): 12, Remove an element from the stack (3): 12 removed, Print the current elements in the stack (6): 13
 ![Valid data input from user](/StackProject/Output2.png)
 
 
