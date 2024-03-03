@@ -15,8 +15,8 @@
 
 #### To Do:
 
-- Error hanlding for edge cases within LinkedList.
-- Error hanlding remove item from stack if it is already empty.
+- Error handling for edge cases within LinkedList.
+- Error handling remove item from stack if it is already empty.
   
 
 ## Overview
